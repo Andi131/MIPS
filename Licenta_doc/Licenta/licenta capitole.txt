@@ -1,0 +1,55 @@
+1.Introducere
+	1.1 Motivatie
+ 	1.2 Arhitecturi de microprocesoare
+	1.3 Descriere generala FPGA
+	1.4 Limbaje descriere hardware
+
+2.MIPS
+	2.1 Prezentarea generala a arhitecturii MIPS
+	2.2 Campurile MIPS
+	2.3 Setul de instructiuni propus spre implementare
+
+3.Implementarea procesorului
+	3.1 Unitatea aritmetico logica  //o mica parte de text in care prezint pe scurt schema generata(RTL plus sinteza)
+	3.2 Bancul de registri  	//
+	3.3 Program counter
+	3.4 Memorie de instructiuni	//
+	3.5 Memorie de date		//
+	3.6 Unitate Control		//
+	3.7 Unitate control UAl		//
+	3.8 Implementarea pe FPGA a procesorului
+	Analiza RTL plus 
+	Consum de resurse logice
+	Frecventa maxima de lucru(timing closure) Caile critice care limiteaza f maxima de lucru? Circuitele aritmetice.
+	Consum de putere(power analisys)
+
+4.Testarea blocurilor procesorului
+	4.1 Testbench Unitate aritmetică logică
+	4.2 Testbench Bancul de registri
+	4.3 Testbench Memorie de instructiuni
+	4.4 Testbench Memorie de date
+	4.5 Observații simulări
+
+5. Testarea procesorului
+	5.1 Script generare instrucțiuni
+	5.2 Generare instrucțiuni și testare
+	5.3 Testare în cadrul unor aplicații
+	
+6. Concluzii 
+
+7.Bibliografie:
+Digital Design and Co - autori David Harris, Sarah Harris
+Computer Organization And Design The Hardware Software Interface - autor Patterson 
+https://en.wikipedia.org/wiki/Central_processing_unit
+https://en.wikipedia.org/wiki/Semiconductor_industry
+https://arstechnica.com/gadgets/2020/11/a-history-of-intel-vs-amd-desktop-performance-with-cpu-charts-galore/
+https://en.wikipedia.org/wiki/Harvard_architecture
+https://en.wikipedia.org/wiki/Von_Neumann_architecture
+https://www.per-international.com/news-and-insights/risc-vs-cisc-architecture-which-is-better
+https://en.wikipedia.org/wiki/Field-programmable_gate_array
+https://en.wikipedia.org/wiki/Hardware_description_language
+https://cloud.kyme32.ro/userfiles/_Anul_3/LMDSH/Curs/LMDSHNoteCurs.pdf
+https://www.youtube.com/watch?v=YGSAWqQy9bI&ab_channel=ScottMoore
+https://www.youtube.com/watch?v=oETOwVBzu1s&t=14s&ab_channel=ProgressiveLearningPlatform
+
+8. Anexe
